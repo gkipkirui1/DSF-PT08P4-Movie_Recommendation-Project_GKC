@@ -13,4 +13,4 @@ People from all walks of life can connect via movies. However, our personal tast
 
 My project's objective is to create a model that, based on a user's assessments of previous movies, suggests the top five movies. By using the "classic" MovieLens dataset, which is widely utilised in scholarly research and proofs-of-concept for machine learning, we want to show the power of data-driven recommendations.
 
-![movie data erd](https://github.com/James-tech4/JAMES-PHASE-3-DSPT-8-PROJECT/blob/main/Visualization%20Images/Hotel%20Image.jpg)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-PROJECT/blob/main/Images/movie_concept.jpg)
