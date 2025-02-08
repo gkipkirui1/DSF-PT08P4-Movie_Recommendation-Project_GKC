@@ -10,7 +10,7 @@
   
 * Instructor Name: Daniel Ekale
 
-![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-PROJECT/blob/main/Images/movie_concept.jpg)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/12713.jpg)
 
 ### Table of Contents
 1. Project Overview
