@@ -128,12 +128,12 @@ The identified model can be optimized further through:
 - **data/**: Contains the raw and processed data files
   - `ratings.csv`: User ratings data
   - `movies.csv`: Movie information data
-  - **images/**: Contains the images used in the project
+- **images/**: Contains the images used in the project
   - `12713.jpg`: Image used in presentation
   - `movie_concept.jpg`: Image to use in presentation
-  - **presentation/**: Contains the presentation ppt for the project
+- **presentation/**: Contains the presentation ppt for the project
   - `presentation.csv`: Movie lense recommendation system presentation
-  - **notebooks/**: Jupyter notebooks for data analysis and modeling
+- **notebooks/**: Jupyter notebooks for data analysis and modeling
   - `Index.ipynb`: Data understanding, preprocessing, Exploratory data analysis, model training and evaluation
 - **README.md**: Project summary, machine learning steps, links, and navigation instructions
 
@@ -142,7 +142,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movielens-recommendation-system.git
+   git clone https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC.git
 
 
 
