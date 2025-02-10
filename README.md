@@ -20,8 +20,8 @@
 5. Data
 6. Data Understanding
 7. Data Preprocessing
-8. Modelling
-9. Model Evaluation
+8. Modelling & Evaluation
+9. Recommendation System Utilisation
 10. Findings
 11. Conclusion
 12. Future Optimizations
@@ -104,12 +104,11 @@ The following processes were carried out to the training and test features befor
 * Split the resulting dataframe into train and test splits
 
 
-### 8. Modelling
+### 8. Modelling & Evaluation
 In this project, 4 Models were created:
 1. SVD.....
 
-### 9. Model Evaluation
-The Models were evaluated on two parameters, XXX AND XXXX. Below are the outcomes of the evaluation for each Model
+### 9. Recommendation System Utilisation
 * XX
 
 
@@ -124,6 +123,27 @@ The xx
 The identified model can be optimized further through:
 
 * mmmm
+
+## Repository Navigation
+- **data/**: Contains the raw and processed data files
+  - `ratings.csv`: User ratings data
+  - `movies.csv`: Movie information data
+  - **images/**: Contains the images used in the project
+  - `12713.jpg`: Image used in presentation
+  - `movie_concept.jpg`: Image to use in presentation
+  - **presentation/**: Contains the presentation ppt for the project
+  - `presentation.csv`: Movie lense recommendation system presentation
+  - **notebooks/**: Jupyter notebooks for data analysis and modeling
+  - `Index.ipynb`: Data understanding, preprocessing, Exploratory data analysis, model training and evaluation
+- **README.md**: Project summary, machine learning steps, links, and navigation instructions
+
+## Instructions
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/movielens-recommendation-system.git
+
 
 
 
