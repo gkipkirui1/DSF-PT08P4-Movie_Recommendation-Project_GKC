@@ -141,7 +141,7 @@ To evaluate the models, I have used __Root Mean Square Error (RMSE)__. A lower R
 
 ### 9. Recommendation System Output
 
-* Collaborative Filtering with Singular Value Decomposition (SVD) Model
+* Collaborative Filtering with Tuned Singular Value Decomposition (SVD) Model
 
 ![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
 
@@ -159,7 +159,7 @@ Based on the evaluation results, I was able to arrive at the following:
 
 * All the three models were able to identify movies with the highest rating of 5.
 
-* The collaborative filtering with Singular Value Decomposition model with a low RMSE indicates higher accuracy as compared to the hybrid and content based filtering model.
+* The collaborative filtering with Tuned Singular Value Decomposition model with a low RMSE indicates higher accuracy as compared to the hybrid and content based filtering model.
 
 * Content-Based Filtering method provides moderate RSME, indicating fairly good accuracy. This can be a good alternative if the user has rich content features and want to recommend items based on the attributes of movies the user has liked.
 
@@ -168,7 +168,7 @@ Based on the evaluation results, I was able to arrive at the following:
 
 ### 11. Recommendation
 
-* Because of its accuracy and capacity to employ user-specific interaction data, Collaborative Filtering (SVD) model is the best option given the task's emphasis on user ratings. Its accuracy and simplicity makes it a favourable recommendation model.
+* Because of its accuracy and capacity to employ user-specific interaction data, Collaborative Filtering with Tuned SVD model is the best option given the task's emphasis on user ratings. Its accuracy and simplicity makes it a favourable recommendation model.
 
 
 ### 12. Future Optimizations
