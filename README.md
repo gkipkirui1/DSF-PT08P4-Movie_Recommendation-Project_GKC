@@ -102,22 +102,22 @@ The data used for this project:
 Insights from EDA are as illustrated below: 
 
 * Top_10_most_popular_tags
-![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC/blob/main/Images/TAGS.png)
 
 * Top 10 Most Popular Genres
-![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC/blob/main/Images/GENRE.png)
 
 * Top 10 Movies by Number of 5-Star Ratings
-![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC/blob/main/Images/RATING.png)
 
 * Distribution of Movie Ratings
-![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC/blob/main/Images/DISTR.png)
 
 * Distribution of Average Ratings per User
-![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC/blob/main/Images/USER.png)
 
 * Scatter plot of Movie Ratings per User
-![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC/blob/main/Images/SCATTER.png)
 
 ### 7. Data Pre_processing
 The following processes were carried out to the training and test features before building the models:
@@ -128,10 +128,14 @@ The following processes were carried out to the training and test features befor
 ### 8. Modelling & Evaluation
 In this project, I created 3 models, namely:
 1. Collaborative Filtering Model with Singular Value Decomposition (SVD)
+ - I prepared the SVD baseline model and tuned it.
 
 2. Content-Based Filtering Model
+- Vectorized the text data using TfidfVectorizer
+-  Used Nearest Neighbors to find similar movies
 
 3. Hybrid Approach
+- Combined both collaborative filtering with SVD and content-based models to come up with Hybrid model.#
 
 To evaluate the models, I have used __Root Mean Square Error (RMSE)__. A lower RMSE is indicative of improved performance and vice versa.
 
