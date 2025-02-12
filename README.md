@@ -122,20 +122,20 @@ To evaluate the models, I have used __Root Mean Square Error (RMSE)__. A lower R
 
 ### 10. Conclusion
 
-1. Based on the evaluation results, I was able to arrive at the following:
+Based on the evaluation results, I was able to arrive at the following:
 
-### Accuracy
 * All the three models were able to identify movies with the highest rating of 5.
 
-* The collaborative filtering (SVD) model with a low RMSE indicates higher accuracy as compared to the hybrid and content based filtering model.
+* The collaborative filtering with Singular Value Decomposition model with a low RMSE indicates higher accuracy as compared to the hybrid and content based filtering model.
 
-* Content-Based Filtering method provides moderate RSME, indicationg fairly good accuracy. This can be a good alternative if the user has rich content features and want to recommend items based on the attributes of movies the user has liked.
+* Content-Based Filtering method provides moderate RSME, indicating fairly good accuracy. This can be a good alternative if the user has rich content features and want to recommend items based on the attributes of movies the user has liked.
 
-* The hybrid model appears to take into consideration both collaborative filtering and content-based filtering model details. The higher RMSE indicates lower prediction accuracy compared to the other two models.
+* The hybrid model appears to take into consideration both collaborative filtering and content-based filtering model details. The moderately higher RMSE indicates slightly lower prediction accuracy compared to the other two models.
+
 
 ### 11. Recommendation
 
-* Because of its accuracy and capacity to employ user-specific interaction data, Collaborative Filtering (SVD) model is the best option given the task's emphasis on user ratings. Its accuracy and simplicity mnakes it a favourable recommendation model.
+* Because of its accuracy and capacity to employ user-specific interaction data, Collaborative Filtering (SVD) model is the best option given the task's emphasis on user ratings. Its accuracy and simplicity makes it a favourable recommendation model.
 
 
 ### 12. Future Optimizations
@@ -166,11 +166,11 @@ To get started with the project, follow these steps:
 
 2. Install Dependencies:
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
-Run Jupyter Notebook:
+* Run Jupyter Notebook:
 
-jupyter notebook
+* Jupyter notebook
 
 ## 📌 Dependencies
 
