@@ -17,7 +17,7 @@
 2. Business Problem
 3. Business Objectives
 4. Target Audience
-5. Data
+5. Data Source
 6. Data Understanding
 7. Data Preprocessing
 8. Modelling & Evaluation
@@ -52,7 +52,7 @@ The Target audience for this project are:
 
 * E-commerce business selling movies
     
-### 5. Data
+### 5. Data Source
 The data was sourced from https://grouplens.org/datasets/movielens/latest/ and has files named links.csv, movies.csv, ratings.csv and tags.csv. 
 
 ### 6. Data Understanding
