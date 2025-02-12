@@ -143,7 +143,7 @@ To evaluate the models, I have used __Root Mean Square Error (RMSE)__. A lower R
 
 * Collaborative Filtering with Tuned Singular Value Decomposition (SVD) Model
 
-![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC/blob/main/Images/SVD.png)
 
 * Content- Based Filtering Model
 
@@ -151,7 +151,7 @@ To evaluate the models, I have used __Root Mean Square Error (RMSE)__. A lower R
 
 * Hybrid Approach
 
-![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/HYBRID.png)
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC/blob/main/Images/HYBRID.png)
 
 ### 10. Conclusion
 
