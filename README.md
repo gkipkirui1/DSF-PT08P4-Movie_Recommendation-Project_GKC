@@ -1,6 +1,6 @@
-### Project Title: Personalized Top 5 Movie Recommendations Model Using User Ratings
+# Project Title: Personalized Top 5 Movie Recommendations Model Using User Ratings
 
-### Student Details
+### 📌 Student Details
 
 * Phase: DSF_PT08P3
 
@@ -12,7 +12,7 @@
 
 ![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/12713.jpg)
 
-### Table of Contents
+### 📌 Table of Contents
 1. Project Overview
 2. Business Problem
 3. Business Objectives
@@ -22,8 +22,8 @@
 7. Data Preprocessing
 8. Modelling & Evaluation
 9. Recommendation System Utilisation
-10. Findings
-11. Conclusion
+10. Conclusion
+11. Recommendation
 12. Future Optimizations
 
 ### 1. Project Overview
@@ -56,12 +56,8 @@ The Target audience for this project are:
 The data was sourced from https://grouplens.org/datasets/movielens/latest/ and has files named links.csv, movies.csv, ratings.csv and tags.csv. 
 
 ### 6. Data Understanding
-The data used for this project:
-* Has xxx
-* Has no Multicollinearity
-* Has columns with Outliers
 
-Data description:
+📊 Data description:
 #### df_links dataset:
 
 * movieId: A unique identifier for each movie.
@@ -98,33 +94,56 @@ Data description:
 
 * timestamp: The time when the tag was added, in Unix epoch format.
 
+The data used for this project:
+* For the purpose of the project, I have merged data frames relating to movies.csv, ratings.csv and tags.csv. 
+* The merged dataset has 219,406 entries and 6 columns. The columns include userId and movieId with integer data type, rating in form of a float, and title, genres, and tag with object data type.
+
+### 🧠 Exploratory Data Analysis
+* 
 ### 7. Data Pre_processing
 The following processes were carried out to the training and test features before building the models:
-* Iccxxx
+* I prepared data in a format compatible with surprise by use of a reader
+
 * Split the resulting dataframe into train and test splits
 
-
 ### 8. Modelling & Evaluation
-In this project, 4 Models were created:
-1. SVD.....
+In this project, I created 3 models, namely:
+1. Collaborative Filtering Model with Singular Value Decomposition (SVD)
+
+2. Content-Based Filtering Model
+
+3. Hybrid Approach
+
+To evaluate the models, I have used __Root Mean Square Error (RMSE)__. A lower RMSE is indicative of improved performance and vice versa.
 
 ### 9. Recommendation System Utilisation
 * XX
 
 
-### 10. Findings
-1. Based on the evaluation results, xxxx
+### 10. Conclusion
 
+1. Based on the evaluation results, I was able to arrive at the following:
 
-### 11. Conclusion
-The xx
+### Accuracy
+* All the three models were able to identify movies with the highest rating of 5.
+
+* The collaborative filtering (SVD) model with a low RMSE indicates higher accuracy as compared to the hybrid and content based filtering model.
+
+* Content-Based Filtering method provides moderate RSME, indicationg fairly good accuracy. This can be a good alternative if the user has rich content features and want to recommend items based on the attributes of movies the user has liked.
+
+* The hybrid model appears to take into consideration both collaborative filtering and content-based filtering model details. The higher RMSE indicates lower prediction accuracy compared to the other two models.
+
+### 11. Recommendation
+
+* Because of its accuracy and capacity to employ user-specific interaction data, Collaborative Filtering (SVD) model is the best option given the task's emphasis on user ratings. Its accuracy and simplicity mnakes it a favourable recommendation model.
+
 
 ### 12. Future Optimizations
 The identified model can be optimized further through:
 
-* mmmm
+* I also plan to evaluate other models deep learning models that may offer better performance.
 
-## Repository Navigation
+## 📌 Repository Navigation
 - **data/**: Contains the raw and processed data files
   - `ratings.csv`: User ratings data
   - `movies.csv`: Movie information data
@@ -137,13 +156,32 @@ The identified model can be optimized further through:
   - `Index.ipynb`: Data understanding, preprocessing, Exploratory data analysis, model training and evaluation
 - **README.md**: Project summary, machine learning steps, links, and navigation instructions
 
-## Instructions
+## 🚀 Instructions
 To get started with the project, follow these steps:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation_Project_GKC.git
 
+
+2. Install Dependencies:
+
+pip install -r requirements.txt
+
+Run Jupyter Notebook:
+
+jupyter notebook
+
+## 📌 Dependencies
+
+Python 3.x
+
+pandas, 
+numpy, 
+matplotlib, 
+seaborn, 
+scikit-learn, 
+surprise library
 
 
 
