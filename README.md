@@ -99,7 +99,26 @@ The data used for this project:
 * The merged dataset has 219,406 entries and 6 columns. The columns include userId and movieId with integer data type, rating in form of a float, and title, genres, and tag with object data type.
 
 ### 🧠 Exploratory Data Analysis
-* 
+Insights from EDA are as illustrated below: 
+
+* Top_10_most_popular_tags
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+
+* Top 10 Most Popular Genres
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+
+* Top 10 Movies by Number of 5-Star Ratings
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+
+* Distribution of Movie Ratings
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+
+* Distribution of Average Ratings per User
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+
+* Scatter plot of Movie Ratings per User
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+
 ### 7. Data Pre_processing
 The following processes were carried out to the training and test features before building the models:
 * I prepared data in a format compatible with surprise by use of a reader
