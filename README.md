@@ -21,7 +21,7 @@
 6. Data Understanding
 7. Data Preprocessing
 8. Modelling & Evaluation
-9. Recommendation System Utilisation
+9. Recommendation System Output
 10. Conclusion
 11. Recommendation
 12. Future Optimizations
@@ -116,9 +116,19 @@ In this project, I created 3 models, namely:
 
 To evaluate the models, I have used __Root Mean Square Error (RMSE)__. A lower RMSE is indicative of improved performance and vice versa.
 
-### 9. Recommendation System Utilisation
-* XX
+### 9. Recommendation System Output
 
+* Collaborative Filtering with Singular Value Decomposition (SVD) Model
+
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/SVD.png)
+
+* Content- Based Filtering Model
+
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/CBF.png)
+
+* Hybrid Approach
+
+![movie data erd](https://github.com/gkipkirui1/DSF-PT08P4-Movie_Recommendation-Project_GKC/blob/main/Images/HYBRID.png)
 
 ### 10. Conclusion
 
@@ -139,9 +149,8 @@ Based on the evaluation results, I was able to arrive at the following:
 
 
 ### 12. Future Optimizations
-The identified model can be optimized further through:
 
-* I also plan to evaluate other models deep learning models that may offer better performance.
+* I plan to evaluate other models deep learning models that may offer better performance.
 
 ## 📌 Repository Navigation
 - **data/**: Contains the raw and processed data files
